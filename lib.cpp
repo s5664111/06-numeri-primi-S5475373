@@ -11,7 +11,7 @@ bool numeroprimo (int n) {
       x=n%i;
     }
     while (x!=0);
-    if (n==i) {
+    if ( n==i ) {
       risultato = 0;
       return risultato;
     }
