@@ -3,13 +3,15 @@
 using namespace std;
 
 int main(){
-  int p;
-  cin >> p;
-  if (numeroprimo(p) == 0) {
-    cout << "numero primo" << endl;
+  int a;
+bool b;
+  cin>>a;
+  b=primi(a);
+  if (b==true){
+    cout<<"numero primo"<<endl;
   }
-  else {
-    cout << "numero non primo" << endl;
+  else if(b==false){
+    cout<<"numero non primo"<<endl;
   }
   return 0;
 }
